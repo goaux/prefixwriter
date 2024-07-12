@@ -2,6 +2,7 @@
 Package prefixwriter provides a writer that prefixes each line with a specified byte slice.
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/goaux/prefixwriter.svg)](https://pkg.go.dev/github.com/goaux/prefixwriter)
+[![Go Report Card](https://goreportcard.com/badge/github.com/goaux/prefixwriter)](https://goreportcard.com/report/github.com/goaux/prefixwriter)
 
 ## Features
 
