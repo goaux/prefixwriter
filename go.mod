@@ -1,3 +1,3 @@
 module github.com/goaux/prefixwriter
 
-go 1.20
+go 1.21.13

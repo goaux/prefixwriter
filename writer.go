@@ -5,6 +5,7 @@ import (
 	"bufio"
 	"bytes"
 	"io"
+	"slices"
 	"strings"
 )
 
@@ -41,7 +42,7 @@ func NewSize(w io.Writer, prefix []byte, size int) *Writer {
 	return &Writer{
 		w:      wrapWriter(w, size),
 		head:   true,
-		prefix: prefix,
+		prefix: slices.Clone(prefix),
 	}
 }
 
